@@ -65,3 +65,27 @@ AWS is recommended for Client D because a global enterprise may require a broad 
 ## Final Recommendation
 
 The best cloud platform depends on the organization's requirements rather than one platform being universally superior. AWS is a strong general-purpose and enterprise choice, Azure is particularly suitable for Microsoft-centered organizations, and Google Cloud is a strong choice for data analytics and data-intensive workloads.
+
+
+## Cloud Platform Decision Matrix
+
+The following decision matrix uses a 1–5 scale, where **1 = lower suitability** and **5 = higher suitability** for the criterion.
+
+| Decision Factor        |       AWS | Microsoft Azure | Google Cloud |
+| ---------------------- | --------: | --------------: | -----------: |
+| Service Breadth        |         5 |               5 |            4 |
+| Scalability            |         5 |               5 |            5 |
+| Enterprise Integration |         5 |               5 |            4 |
+| Data Analytics & AI    |         4 |               4 |            5 |
+| Global Infrastructure  |         5 |               5 |            5 |
+| Security & IAM         |         5 |               5 |            5 |
+| Ease of Management     |         4 |               4 |            4 |
+| **Total Score**        | **33/35** |       **33/35** |    **32/35** |
+
+## Interpretation
+
+AWS receives a high score because of its broad range of services, scalability, global infrastructure, and mature enterprise capabilities. Azure receives a similarly high score because of its strong enterprise integration and Microsoft ecosystem. Google Cloud receives its highest score in data analytics and AI-related workloads.
+
+The scores are intended as a general educational comparison rather than a universal ranking. Actual cloud selection should consider the specific workload, existing technology, required services, security requirements, operational skills, and total cost. Cloud providers also offer comparable services with differences in implementation and capabilities.
+
+Based on this matrix, **AWS and Azure are strong general-purpose enterprise choices**, while **Google Cloud is particularly attractive for data-intensive and AI-focused workloads**.
