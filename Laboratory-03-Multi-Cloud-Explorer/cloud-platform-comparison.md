@@ -39,3 +39,30 @@ AWS is a strong general-purpose choice because of its broad range of services an
 
 There is no single cloud platform that is best for every organization. The appropriate choice depends on workload requirements, existing technology, budget, technical skills, security requirements, and business goals.
 
+## Equivalent Cloud Services
+
+Cloud providers offer services with similar purposes, although their features and implementation can differ. The following table maps commonly used services across AWS, Microsoft Azure, and Google Cloud.
+
+| Service Category             | AWS                    | Microsoft Azure                | Google Cloud                   |
+| ---------------------------- | ---------------------- | ------------------------------ | ------------------------------ |
+| Virtual Machines / Compute   | Amazon EC2             | Azure Virtual Machines         | Compute Engine                 |
+| Object Storage               | Amazon S3              | Azure Blob Storage             | Cloud Storage                  |
+| Block Storage                | Amazon EBS             | Azure Managed Disks            | Google Cloud Hyperdisk         |
+| File Storage                 | Amazon EFS             | Azure Files                    | Filestore                      |
+| Virtual Networking           | Amazon VPC             | Azure Virtual Network          | Google Cloud VPC               |
+| DNS                          | Amazon Route 53        | Azure DNS                      | Cloud DNS                      |
+| Load Balancing               | Elastic Load Balancing | Azure Load Balancer            | Cloud Load Balancing           |
+| Serverless Functions         | AWS Lambda             | Azure Functions                | Cloud Functions                |
+| Managed Kubernetes           | Amazon EKS             | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+| Identity & Access Management | AWS IAM                | Microsoft Entra ID             | Cloud IAM                      |
+| Relational Database          | Amazon RDS             | Azure SQL Database             | Cloud SQL                      |
+| Data Warehouse               | Amazon Redshift        | Azure Synapse Analytics        | BigQuery                       |
+| Monitoring                   | Amazon CloudWatch      | Azure Monitor                  | Cloud Monitoring               |
+| CDN                          | Amazon CloudFront      | Azure Front Door               | Cloud CDN                      |
+| Private Connectivity         | AWS Direct Connect     | Azure ExpressRoute             | Cloud Interconnect             |
+
+### Key Observation
+
+The three major cloud platforms provide comparable services across most major cloud categories. For example, Amazon EC2, Azure Virtual Machines, and Compute Engine all provide virtual-machine computing, while Amazon S3, Azure Blob Storage, and Cloud Storage provide object storage.
+
+However, equivalent services are not necessarily identical. Each provider has different architectures, pricing models, interfaces, features, and integration options. Therefore, organizations should compare the actual requirements of a workload instead of assuming that equivalent service names provide exactly the same capabilities.
